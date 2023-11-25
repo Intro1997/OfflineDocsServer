@@ -5,9 +5,10 @@
 工具以 docs.gl 本地启动为例，使用 nodejs 来完成启动服务
 
 由于需要使用 nodejs 新建系统终端，因此需要在不同系统中进行测试，目前测试成功的有以下系统：
-[x] macOS Ventura 13.2 (use osascript)
-[ ] Windows
-[ ] Linux
+
+- [x] macOS Ventura 13.2 (use osascript)
+- [ ] Windows
+- [ ] Linux
 
 ## 文件结构
 
