@@ -1,0 +1,4 @@
+node_modules
+docs
+test.js
+package-lock.json

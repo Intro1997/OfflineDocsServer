@@ -1,0 +1,20 @@
+{
+  "proxy": "http://0.0.0.0:1087",
+  "docs": {
+    "glm": {
+      "main_page": "index.html",
+      "docs_folder": "docs/glm/glm-master/doc/api",
+      "port": "20482",
+      "doc_download_address": "https://github.com/g-truc/glm/archive/refs/heads/master.zip",
+      "enable": true
+    },
+    "opengl": {
+      "main_page": "index.html",
+      "docs_folder": "docs/opengl/htdocs",
+      "html_folds": ["el3", "es2", "es3", "gl2", "gl3", "gl4", "sl4"],
+      "port": "20481",
+      "doc_download_address": "https://docs.gl/docs.gl.zip",
+      "enable": true
+    }
+  }
+}

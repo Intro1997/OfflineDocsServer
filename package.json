@@ -1,0 +1,17 @@
+{
+  "name": "offlinewebserver",
+  "version": "1.0.0",
+  "description": "由于 docs.gl 提供的离线版本，其 API 描述所在 html 文件名没有提供 html 后缀，导致 chrome 跳转到该文件的时候不显示网页，因此需要在 server 端修改 content-type 来完成。考虑到这可能是一个通用的行为，因此这里提供一个通用 server 工具来完成这个事情",
+  "main": "start_server.js",
+  "scripts": {
+    "update_docs": "node update_docs.js",
+    "start": "node start_server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "extract-zip": "^2.0.1",
+    "progress": "^2.0.3",
+    "nodejs-file-downloader": "^4.12.1"
+  }
+}
